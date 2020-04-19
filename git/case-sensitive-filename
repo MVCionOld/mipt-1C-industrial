@@ -1,0 +1,4 @@
+git start next
+git mv File.txt ./file.txt
+git commit -am "renamed"
+git verify

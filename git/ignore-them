@@ -1,0 +1,8 @@
+git start next
+echo "*.exe" > .gitignore
+echo "*.o" » .gitignore
+echo "*.jar" » .gitignore
+echo "libraries/" » .gitignore
+git add .
+git commit -m "added .gitignore"
+git verify

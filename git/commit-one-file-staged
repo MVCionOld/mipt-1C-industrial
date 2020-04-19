@@ -1,0 +1,4 @@
+git start next
+git reset A.txt
+git commit -m "added B.txt, reseted A.txt"
+git verify

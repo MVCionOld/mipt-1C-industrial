@@ -1,0 +1,4 @@
+git start next
+git update-index —chmod=+x script.sh
+git commit -m "script.sh is now executable"
+git verify

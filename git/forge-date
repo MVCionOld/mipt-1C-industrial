@@ -1,0 +1,3 @@
+git start next
+git commit —amend —no-edit —date="1987-01-01"
+git verify

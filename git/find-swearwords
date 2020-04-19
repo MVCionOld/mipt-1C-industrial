@@ -1,0 +1,4 @@
+git start next
+git log -S shit —source —all
+git rebase -i 937d0d47908d9610648236779f592430cdefb3af # edit necessary commits and find via grep files
+git verify

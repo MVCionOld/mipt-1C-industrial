@@ -1,0 +1,3 @@
+git start next
+git rebase hot-bugfix
+git verify

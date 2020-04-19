@@ -1,0 +1,7 @@
+git start next
+git cherry-pick feature-a
+git cherry-pick feature-b
+git cherry-pick feature-c
+vim program.txt # fix merge conflict
+git cherry-pick —continue
+git verify

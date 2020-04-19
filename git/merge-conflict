@@ -1,0 +1,7 @@
+git start next
+git merge another-piece-of-work
+vim equation.txt
+# left just "2 + 3 = 5"
+git add equation.txt
+git commit -m "merge conflict resolved"
+git verify

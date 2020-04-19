@@ -1,0 +1,9 @@
+git start next
+git rebase -i HEAD~2
+vim file.txt # fix typo
+git add file.txt
+git rebase —continue
+vim file.txt # fix merge conflict
+git add file.txt
+git rebase —continue
+git verify

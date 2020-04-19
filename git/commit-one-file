@@ -1,0 +1,4 @@
+git start next
+git add A.txt
+git commit -m "added A.txt"
+git verify

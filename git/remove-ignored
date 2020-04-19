@@ -1,0 +1,4 @@
+git start next
+git rm ignored.txt
+git commit -am "ignored.txt is removed"
+git verify

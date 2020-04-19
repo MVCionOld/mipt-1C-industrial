@@ -1,0 +1,7 @@
+git start next
+git reset HEAD~1
+git add first.txt
+git commit -m "added first.txt"
+git add second.txt
+git commit -m "added second.txt"
+git verify

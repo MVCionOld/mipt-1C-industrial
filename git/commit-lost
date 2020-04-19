@@ -1,0 +1,3 @@
+git start next
+git reset —hard HEAD@{1}
+git verify

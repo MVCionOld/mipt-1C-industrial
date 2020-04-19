@@ -1,0 +1,14 @@
+git start next
+git bisect start HEAD 1.0 —
+git bisect run sh -c "openssl enc -base64 -A -d < home-screen-text.txt | grep -v jackass"
+#
+# ... ... ...
+#
+# commit 9e06714949938285b2a8dc098a18858c7a1c4cd6
+# Author: m.v.tsion <tsionmichel1998@gmail.com>
+# Date: Sun Apr 19 00:20:23 2020 +0300
+# Change text on home screen 78
+# :100644 100644 d47ede0049a613c99dacb61c59f18c511533f243 389abe6fbbedda8fcb31d2e74e2a719529484e89 M home-screen-text.txt
+# bisect run success
+#
+git push origin 9e06714949938285b2a8dc098a18858c7a1c4cd6:find-bug

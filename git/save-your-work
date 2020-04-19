@@ -1,0 +1,11 @@
+git start next
+git stash
+git stash list
+git stash show
+vim bug.txt
+# fix the bug
+git commit -am "bug fixed"
+git stash pop
+echo "Finally, finished it!" >> bug.txt
+git commit -am "Work is finished"
+git verify

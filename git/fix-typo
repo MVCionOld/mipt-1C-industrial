@@ -1,0 +1,4 @@
+git start next
+vim file.txt # fix typo
+git commit -a —amend # fix typo in commit message
+git verify

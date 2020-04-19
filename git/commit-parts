@@ -1,0 +1,6 @@
+git start next
+git add -p # s n y n y
+git commit -m "1st commit"
+git add -p # s y y
+git commit -m "2nd commit"
+git verify
